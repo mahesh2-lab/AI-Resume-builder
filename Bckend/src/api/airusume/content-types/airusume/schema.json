@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airusumes",
+  "info": {
+    "singularName": "airusume",
+    "pluralName": "airusumes",
+    "displayName": "airusume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeId": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "summery": {
+      "type": "text"
+    }
+  }
+}
